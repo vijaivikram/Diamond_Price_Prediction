@@ -26,7 +26,7 @@ class Data_Ingestion:
         
         
         try:
-            data=pd.read_csv("notebooks/data/gemstone.csv")
+            data=pd.read_csv(Path(os.path.join('notebooks/data','gemstone.csv')))
             logging.info('Data has been read')
             
             os.makedirs(os.path.dirname(os.path.join(self.ingestion_config.raw_data_path)),exist_ok=True)
