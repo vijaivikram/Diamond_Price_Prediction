@@ -1,1 +1,59 @@
-<h1>The dimond price will be {{final_result}}</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Diamond Price Prediction Result</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #ffff4d;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .container {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color:  #1f1f14;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  h1 {
+    color: #fff;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  h2 {
+    color: #afaf83;
+    margin-bottom: 20px;
+  }
+
+  .start-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    text-decoration: none; 
+  }
+  .start-button:hover {
+    background-color: #0056b3;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>The diamond price will be Rs.{{ final_result }}</h1>
+  <a href="{{ url_for('predict_datapoint') }}" class="start-button">Predict Again</a>
+</div>
+</body>
+</html>

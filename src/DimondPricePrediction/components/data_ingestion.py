@@ -13,7 +13,7 @@ class Data_Ingestion_Configuration:
     raw_data_path:str=os.path.join('artifacts','raw.csv')
     train_data_path:str=os.path.join('artifacts','train_data.csv')
     test_data_path:str=os.path.join('artifacts','test_data.csv')
-    
+     
     
     
     

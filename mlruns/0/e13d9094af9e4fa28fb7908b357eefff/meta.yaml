@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Vijai%20vikram/Desktop/python_programming/Diamond_Price_Prediction/mlruns/0/e13d9094af9e4fa28fb7908b357eefff/artifacts
+end_time: 1708053259635
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e13d9094af9e4fa28fb7908b357eefff
+run_name: efficient-sloth-502
+run_uuid: e13d9094af9e4fa28fb7908b357eefff
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1708053254738
+status: 3
+tags: []
+user_id: Vijaivikram
